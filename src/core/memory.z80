@@ -1,0 +1,42 @@
+SECTION "memory", CODE
+; memcpy implementation for Z80
+memcpy::
+    ; DE = block size
+    ; BC = source address
+    ; HL = destination address
+    dec DE
+
+.memcpy_loop:
+    ld A, [BC]
+    ld [HL], A
+    inc BC
+    inc HL
+    dec DE
+
+.memcpy_check_limit:
+    ld A, E
+    cp $00
+    jr nz, .memcpy_loop
+    ld A, D
+    cp $00
+    jr nz, .memcpy_loop
+    ret
+
+; memset
+memset::
+    ; HL = block start address
+    ; DE = block end address
+    ; B = value to set
+.memset_loop:
+    ld [HL], B
+    inc HL
+    ld A, H
+    cp D
+    jr nz, .memset_loop
+    ld A, L
+    cp E
+    jr nz, .memset_loop
+    ld H, D
+    ld L, E
+    ld [HL], B
+    ret

@@ -1,0 +1,96 @@
+ROM Bank #0 (HOME):
+  SECTION: $0000-$016F ($0170 bytes)
+           $0156 = main
+    SLACK: $3E90 bytes
+
+ROM Bank #1:
+  SECTION: $4000-$47B5 ($07B6 bytes)
+           $4000 = font_tile_data
+           $4650 = bfi_reset
+           $47B4 = bfi_fde.bfi_fde_end
+           $474F = bfi_fde.bfi_execute_in
+           $4752 = bfi_fde.bfi_execute_rep_start
+           $476D = bfi_fde.bfi_execute_rep_end
+           $47A9 = bfi_fde.bfi_restore_pc
+           $4675 = bfi_fde.bfi_fetch
+           $4674 = bfi_syntax_error
+           $47B5 = bfi_error
+           $4640 = bfi_load_data
+           $4675 = bfi_fde
+  SECTION: $48FA-$4935 ($003C bytes)
+           $48FA = read_joypad
+           $4921 = clear_joypad
+  SECTION: $4955-$4967 ($0013 bytes)
+           $495B = lcd_on
+           $4955 = lcd_off
+           $4961 = wait_vblank
+  SECTION: $4936-$4954 ($001F bytes)
+           $4947 = memset
+           $4936 = memcpy
+  SECTION: $4878-$48F9 ($0082 bytes)
+           $488F = clear_print
+           $48A3 = print
+           $4878 = string_len
+           $4884 = init_print
+  SECTION: $47B6-$4877 ($00C2 bytes)
+           $47B6 = TEST
+    SLACK: $3698 bytes
+
+WRAM Bank #0:
+  SECTION: $C000-$CC06 ($0C07 bytes)
+           $CC06 = BF_TMP_SP
+           $C000 = BF_ARRAY
+           $CC00 = BF_PTR
+           $CC02 = BF_CHAR
+           $CC04 = BF_TMP_HL
+  SECTION: $CC07-$CC0A ($0004 bytes)
+           $CC07 = IO_P14
+           $CC09 = IO_P14_OLD
+           $CC08 = IO_P15
+           $CC0A = IO_P15_OLD
+  SECTION: $CC0B-$CC0C ($0002 bytes)
+           $CC0B = print_ptr
+    SLACK: $03F3 bytes
+
+WRAM Bank #1:
+  EMPTY
+
+WRAM Bank #2:
+  EMPTY
+
+WRAM Bank #3:
+  EMPTY
+
+WRAM Bank #4:
+  EMPTY
+
+WRAM Bank #5:
+  EMPTY
+
+WRAM Bank #6:
+  EMPTY
+
+WRAM Bank #7:
+  EMPTY
+
+VRAM Bank #0:
+  EMPTY
+
+VRAM Bank #1:
+  EMPTY
+
+HRAM:
+  EMPTY
+
+SRAM Bank #0:
+  EMPTY
+
+SRAM Bank #1:
+  EMPTY
+
+SRAM Bank #2:
+  EMPTY
+
+SRAM Bank #3:
+  EMPTY
+

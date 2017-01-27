@@ -1,0 +1,222 @@
+SECTION "bfi_variables", BSS[$C000]     ; Start at the top of bank 0 wram
+BF_ARRAY: DS $0C00                      ; 3 KB of memory
+BF_PTR: DS $02                          ; 16 bit pointer
+BF_CHAR: DS $02
+BF_TMP_HL: DS $02
+BF_TMP_SP: DS $01
+SECTION "bfi_data", DATA
+SECTION "bfi", CODE
+
+INCLUDE "ascii/table.inc"
+INCLUDE "ascii/font.inc"
+INCLUDE "gb/macros.inc"
+
+BF_ARRAY_SIZE   EQU $0BFF
+BF_INC_PTR      EQU CHAR_GT             ; >
+BF_DEC_PTR      EQU CHAR_LT             ; <
+BF_INC_DAT      EQU CHAR_PLUS           ; +
+BF_DEC_DAT      EQU CHAR_MINUS          ; -
+BF_OUT          EQU CHAR_DOT            ; .
+BF_IN           EQU CHAR_COMMA          ; ,
+BF_REP_STR      EQU CHAR_LSQBRACK       ; [
+BF_REP_END      EQU CHAR_RSQBRACK       ; ]
+
+bfi_load_data::
+    ld DE, font_tile_data_size
+    ld BC, font_tile_data
+    ld HL, $9200                        ; We offset 32 to have 
+    call memcpy                         ; valid ascii table mapping
+    call bfi_reset
+    ret
+
+bfi_reset::
+    ld HL, BF_TMP_SP
+    ld [HL], $00
+    ld HL, BF_ARRAY
+    ld B, H
+    ld C, L
+    ld HL, BF_PTR                       ; Reset pointer
+    ld [HL], B
+    inc HL
+    ld [HL], C
+    ld HL, BF_CHAR                      ; Reset temp char
+    ld [HL], $00
+    inc HL
+    ld [HL], $00
+    ld B, $00
+    ld HL, BF_ARRAY
+    ld DE, BF_ARRAY + BF_ARRAY_SIZE
+    call memset
+    ret
+
+bfi_syntax_error::
+    ret
+
+bfi_fde::                               ; BF Fetch-Decode-Execute
+.bfi_fetch:                             ; HL = command buffer, should be null term
+    ld A, [HL]                          ; Fetch instruction
+    inc HL                              ; increment PC
+    cp $00
+    jr nz, .bfi_decode
+    jp .bfi_fde_end                     ; if we are at the end we jump to the end
+.bfi_decode:
+    ld B, H
+    ld C, L
+    ld HL, BF_TMP_HL                    ; save the PC
+    ld [HL], B
+    inc HL
+    ld [HL], C
+    cp BF_INC_PTR
+    jr z, .bfi_execute_inc_ptr
+    cp BF_DEC_PTR
+    jr z, .bfi_execute_dec_ptr
+    cp BF_INC_DAT
+    jr z, .bfi_execute_inc_dat
+    cp BF_DEC_DAT
+    jr z, .bfi_execute_dec_dat
+    cp BF_OUT
+    jr z, .bfi_execute_out
+    cp BF_IN
+    jp z, .bfi_execute_in
+    cp BF_REP_STR
+    jp z, .bfi_execute_rep_start
+    cp BF_REP_END
+    jp z, .bfi_execute_rep_end
+    ld HL, BF_TMP_HL
+    ld B, [HL]
+    inc HL
+    ld C, [HL]
+    ld H, B
+    ld L, C
+    jr .bfi_fetch
+.bfi_execute_inc_ptr:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    inc BC                              ; increment pointer copy
+    dec HL
+    ld [HL], B
+    inc HL
+    ld [HL], C                          ; save copy of pointer
+    jp .bfi_restore_pc
+.bfi_execute_dec_ptr:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    dec BC                              ; decrement pointer copy
+    dec HL
+    ld [HL], B
+    inc HL
+    ld [HL], C                          ; save copy of pointer
+    jp .bfi_restore_pc
+.bfi_execute_inc_dat:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B 
+    ld L, C
+    inc [HL]                            ; increment data at pointer
+    jp .bfi_restore_pc
+.bfi_execute_dec_dat:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B 
+    ld L, C
+    dec [HL]                            ; decrement data at pointer
+    jp .bfi_restore_pc
+.bfi_execute_out:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B
+    ld L, C
+    ld A, [HL]
+    ld HL, BF_CHAR
+    ld [HL], A                          ; store on temp char for print
+    M_PRINT
+    jr .bfi_restore_pc
+.bfi_execute_in:
+    jr .bfi_restore_pc                  ; no support for input yet
+    nop
+.bfi_execute_rep_start:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B 
+    ld L, C
+    ld A, [HL]
+    cp $00                              ; check if data in ptr is $00
+    jr z, .bfi_wait_rep_end             ; if it's $00 then we continue
+    ld HL, BF_TMP_SP
+    inc [HL]
+    ld HL, BF_TMP_HL                     
+    ld B, [HL]
+    inc HL
+    ld C, [HL]
+    dec BC
+    push BC
+    jr .bfi_restore_pc 
+.bfi_execute_rep_end:
+    ld HL, BF_PTR
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B 
+    ld L, C
+    ld A, [HL]
+    cp $00
+    jr nz, .bfi_execute_rep_end_continue
+    ld HL, BF_TMP_SP
+    ld A, [HL]
+    cp $00
+    jr z, .bfi_restore_pc
+    pop BC
+    dec [HL]
+    jr .bfi_restore_pc
+.bfi_execute_rep_end_continue:
+    pop BC
+    ld HL, BF_TMP_SP
+    dec [HL]
+    ld HL, BF_TMP_HL
+    ld [HL], B
+    inc HL
+    ld [HL], C
+    jr .bfi_restore_pc
+.bfi_wait_rep_end:
+    ld HL, BF_TMP_HL
+    ld B, [HL]                          ; dereference pointer
+    inc HL
+    ld C, [HL]
+    ld H, B
+    ld L, C
+.bfi_wait_rep_end_loop:
+    ld A, [HL]
+    inc HL
+    cp BF_REP_END
+    jr nz, .bfi_wait_rep_end_loop
+    ld B, H
+    ld C, L
+    ld HL, BF_TMP_HL
+    ld [HL], B
+    inc HL
+    ld [HL], C
+.bfi_restore_pc:
+    ld HL, BF_TMP_HL
+    ld B, [HL]
+    inc HL
+    ld C, [HL]
+    ld H, B
+    ld L, C 
+    jp .bfi_fetch
+.bfi_fde_end:
+    ret
+
+bfi_error::
+    ret

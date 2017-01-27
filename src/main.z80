@@ -1,0 +1,32 @@
+SECTION "home", HOME
+
+INCLUDE "gb/interrupts.inc"
+INCLUDE "gb/macros.inc"
+INCLUDE "ascii/table.inc"
+
+jp main
+
+INCLUDE "gb/header.inc"
+
+main:
+    call lcd_off
+    call bfi_load_data
+    call init_print
+    call lcd_on
+    
+    
+
+.loop:
+    call wait_vblank
+
+    call bfi_reset
+    ld HL, TEST
+    call bfi_fde
+
+    jr .loop
+
+SECTION "test", DATA
+;TEST = HELLO, BRAINFUCK!
+TEST: 
+    DB "-[------->+<]>-.-[->+++++<]>++.+++++++..+++.[->+++++<]>+.------------.+[->++<]>.---[----->+<]>-.+++[->+++<]>++.++++++++.+++++.--------.-[--->+<]>--.+[->+++<]>+.++++++++.+[++>---<]>-.[--->+<]>-.", $00
+    

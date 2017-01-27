@@ -1,0 +1,1097 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"BF_TMP",
+				"BF_TMP_DE"
+			],
+			[
+				"bfi_res",
+				"bfi_restore_pc"
+			],
+			[
+				"bfi_ex",
+				"bfi_execute_rep_end"
+			],
+			[
+				"re",
+				"bfi_restore_pc"
+			],
+			[
+				"bfi_exe",
+				"bfi_execute_inc_ptr"
+			],
+			[
+				"BF_INC",
+				"BF_INC_PTR"
+			],
+			[
+				"HE",
+				"HELLO_VAR"
+			],
+			[
+				"put_cha",
+				"put_char_continue_0"
+			],
+			[
+				"prin",
+				"print_ptr"
+			],
+			[
+				"res",
+				"reset_line"
+			],
+			[
+				"print",
+				"print_newline"
+			],
+			[
+				"pi",
+				"print_ptr"
+			],
+			[
+				"strl",
+				"strlen_loop"
+			],
+			[
+				"uin",
+				"unitIndexEnabled"
+			],
+			[
+				"add",
+				"addUfo"
+			],
+			[
+				"text",
+				"texture2D"
+			],
+			[
+				"byn",
+				"bunny1"
+			],
+			[
+				"bu",
+				"bunny1"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"encode",
+				"encodedBytes"
+			],
+			[
+				"U",
+				"Uint8Array"
+			],
+			[
+				"ar",
+				"arrayBuffer"
+			],
+			[
+				"enco",
+				"encodedData"
+			],
+			[
+				"enc",
+				"encodedDataSize"
+			],
+			[
+				"endo",
+				"encodedData"
+			],
+			[
+				"end",
+				"encodedData"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"root",
+				"rootTransform"
+			],
+			[
+				"bottom",
+				"bottomRight"
+			],
+			[
+				"botto",
+				"bottomLeft"
+			],
+			[
+				"top",
+				"topLeft"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"piv",
+				"pivotY"
+			],
+			[
+				"parent",
+				"parentBoundingBox"
+			],
+			[
+				"parte",
+				"parented"
+			],
+			[
+				"pare",
+				"parentBoundingBox"
+			],
+			[
+				"boun",
+				"boundingBox"
+			],
+			[
+				"trans",
+				"translation"
+			],
+			[
+				"sca",
+				"scaleY"
+			],
+			[
+				"scal",
+				"scaleX"
+			],
+			[
+				"xM",
+				"xMax"
+			],
+			[
+				"pivo",
+				"pivotX"
+			],
+			[
+				"worl",
+				"worldY"
+			],
+			[
+				"pos",
+				"_posX"
+			],
+			[
+				"wolr",
+				"worldX"
+			],
+			[
+				"hal",
+				"halfWidth"
+			],
+			[
+				"upda",
+				"updateFromParent"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"game",
+				"gameObject"
+			],
+			[
+				"paret",
+				"parentBound"
+			],
+			[
+				"paren",
+				"parentBound"
+			],
+			[
+				"_pi",
+				"_pivotX"
+			],
+			[
+				"foo",
+				"food-parts"
+			],
+			[
+				"foodI",
+				"foodIcons"
+			],
+			[
+				"piz",
+				"pizzaBox"
+			],
+			[
+				"butt",
+				"buttonArray"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"eas",
+				"easeInOutBack"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"base",
+				"pizzaBase"
+			],
+			[
+				"po",
+				"pos1"
+			],
+			[
+				"pointe",
+				"pointerMove"
+			],
+			[
+				"buil",
+				"buildingBoard"
+			],
+			[
+				"star",
+				"startPos"
+			],
+			[
+				"or",
+				"foodOrder"
+			],
+			[
+				"bo",
+				"selectBoard"
+			],
+			[
+				"select",
+				"selectBoard"
+			],
+			[
+				"Sp",
+				"speechBubble"
+			],
+			[
+				"Sprt",
+				"Sprite\tBento Sprite component"
+			],
+			[
+				"ben",
+				"bento\tBento Entity Definition"
+			],
+			[
+				"ligh",
+				"lights"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"camera",
+				"cameraHandle"
+			],
+			[
+				"rota",
+				"rotation"
+			],
+			[
+				"angu",
+				"angularVelocity"
+			],
+			[
+				"rotat",
+				"rotationSign"
+			],
+			[
+				"ro",
+				"rotation"
+			],
+			[
+				"came",
+				"cameraHandle"
+			],
+			[
+				"camer",
+				"cameraHandle"
+			],
+			[
+				"an",
+				"angularVelocity"
+			],
+			[
+				"Spr",
+				"Sprite\tBento Sprite component"
+			],
+			[
+				"clicka",
+				"clickable"
+			],
+			[
+				"pointer",
+				"pointerCoordinates"
+			],
+			[
+				"ons",
+				"onSwipeRight"
+			],
+			[
+				"bne",
+				"bento\tBento Entity Definition"
+			],
+			[
+				"bento",
+				"bento\tBento Entity Definition"
+			],
+			[
+				"Vecto",
+				"Vector2"
+			],
+			[
+				"croc",
+				"crocSize"
+			],
+			[
+				"cro",
+				"crocSize"
+			],
+			[
+				"leve",
+				"levelSettings"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cur",
+				"currentCroc"
+			],
+			[
+				"fore",
+				"foreground"
+			],
+			[
+				"for",
+				"frogger"
+			],
+			[
+				"lane",
+				"lanes"
+			],
+			[
+				"sprite",
+				"Sprite"
+			],
+			[
+				"moveSp",
+				"moveSpeedNormal"
+			],
+			[
+				"norm",
+				"moveNormal"
+			],
+			[
+				"padd",
+				"paddle"
+			],
+			[
+				"pa",
+				"paddle"
+			],
+			[
+				"Padd",
+				"PaddleCPU"
+			],
+			[
+				"puc",
+				"puckRect"
+			],
+			[
+				"puck",
+				"puckY"
+			],
+			[
+				"pad",
+				"PaddlePlayer"
+			],
+			[
+				"lan",
+				"laneCarCount"
+			],
+			[
+				"hi",
+				"highestIndex"
+			],
+			[
+				"play",
+				"playedPassedSound"
+			],
+			[
+				"swia",
+				"swipeHand"
+			],
+			[
+				"touch",
+				"touchdownSign"
+			],
+			[
+				"tut",
+				"tutorialText"
+			],
+			[
+				"tuto",
+				"tutorialFactor"
+			],
+			[
+				"Ve",
+				"vector2"
+			],
+			[
+				"rugby",
+				"rugby"
+			],
+			[
+				"vi",
+				"viewport"
+			],
+			[
+				"do",
+				"dogPoolAlive"
+			],
+			[
+				"dog",
+				"dogCount"
+			],
+			[
+				"time",
+				"timeToComplete"
+			],
+			[
+				"rec",
+				"reachedPositionCounter"
+			],
+			[
+				"ru",
+				"rugby"
+			],
+			[
+				"rug",
+				"rugbyField"
+			],
+			[
+				"dogPo",
+				"dogPoolAlive"
+			],
+			[
+				"maxBo",
+				"maxBoundsRight"
+			],
+			[
+				"enti",
+				"entity"
+			],
+			[
+				"max",
+				"maxBoundsLeft"
+			],
+			[
+				"maxB",
+				"maxBoundsRight"
+			],
+			[
+				"back",
+				"backgroundWidth"
+			],
+			[
+				"moveT",
+				"moveTowardsPoint"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.z80",
+			"settings":
+			{
+				"buffer_size": 682,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/ascii/font.inc",
+			"settings":
+			{
+				"buffer_size": 7167,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "sublimelintersett",
+		"selected_items":
+		[
+			[
+				"sublimelintersett",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 231.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/gameboy/brainfuck",
+		"/C/dev/gameboy/brainfuck/include",
+		"/C/dev/gameboy/brainfuck/include/ascii",
+		"/C/dev/gameboy/brainfuck/include/gb",
+		"/C/dev/gameboy/brainfuck/src",
+		"/C/dev/gameboy/brainfuck/src/bf",
+		"/C/dev/gameboy/brainfuck/src/core"
+	],
+	"file_history":
+	[
+		"/C/dev/gameboy/brainfuck/src/core/memory.z80",
+		"/C/dev/gameboy/brainfuck/include/gb/macros.inc",
+		"/C/dev/gameboy/brainfuck/src/core/string.z80",
+		"/C/dev/gameboy/brainfuck/src/core/lcd.z80",
+		"/C/dev/gameboy/brainfuck/src/bf/bfi.z80",
+		"/C/dev/gameboy/brainfuck/include/ascii/table.inc",
+		"/C/dev/gameboy/brainfuck/png/font.inc",
+		"/C/dev/gameboy/brainfuck/include/ascii/font.inc",
+		"/C/dev/gameboy/brainfuck/include/gb/interrupts.inc",
+		"/C/dev/gameboy/brainfuck/include/gb/header.inc",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/WebGLRenderer.js",
+		"/C/xampp/htdocs/phaser/v3/src/gameobjects/blitter/BlitterWebGLRenderer.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/blitter/BlitterBatch.js",
+		"/C/xampp/htdocs/phaser/v3/src/textures/Frame.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/sprite/SpriteBatch32.js",
+		"/C/xampp/htdocs/phaser3-examples/public/src/sprite renderer/rotated atlas frames.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/sprite/FragmentShader.js",
+		"/C/xampp/htdocs/phaser3-examples/public/src/sprite renderer/bunny test 1.js",
+		"/C/xampp/htdocs/phaser3-examples/build.js",
+		"/C/xampp/htdocs/phaser/v3/src/gameobjects/image/ImageWebGLRenderer.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/sprite/SpriteBatch.js",
+		"/C/xampp/htdocs/phaser/v3/src/device/Features.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/sprite/VertexShader.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/batches/sprite/const.js",
+		"/C/xampp/htdocs/phaser/v3/src/renderer/webgl/utils/vao/Attribute.js",
+		"/C/xampp/htdocs/phaser3-examples/public/src/sprite renderer/benchmark 1.js",
+		"/C/xampp/htdocs/phaser/v3/src/boot/Game.js",
+		"/C/xampp/htdocs/phaser/v3/src/boot/Config.js",
+		"/C/xampp/htdocs/phaser/v3/src/components/Transform.js",
+		"/C/xampp/htdocs/phaser/v3/src/components/Color.js",
+		"/C/xampp/htdocs/phaser/v3/src/gameobjects/image/Image.js",
+		"/C/xampp/htdocs/sprite-renderer-transform/app.js",
+		"/C/xampp/htdocs/phaser/v3/src/state/systems/MainLoop.js",
+		"/C/xampp/htdocs/phaser/v3/merge/core/Game.js",
+		"/C/xampp/htdocs/phaser3-examples/public/src/particle renderer/110 particle test 1.js",
+		"/C/xampp/htdocs/phaser-examples/examples/phaser3/072 blitter transform.js",
+		"/C/xampp/htdocs/phaser/v3/merge/core/StateManager.js",
+		"/C/xampp/htdocs/phaser/v3/merge/renderer/webgl/batches/BaseBatch.js",
+		"/C/xampp/htdocs/phaser/v3/merge/renderer/webgl/batches/PixelBatch.js",
+		"/C/xampp/htdocs/phaser/v3/merge/components/Transform.js",
+		"/C/xampp/htdocs/phaser-examples/examples/phaser3/047 pixelfield.js",
+		"/C/xampp/htdocs/phaser-examples/examples/phaser3/032 parent transform.js",
+		"/C/Users/felip/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/dev/flixelgame1/flixelgame1.sln",
+		"/C/dev/damnlib/damnlib/damnlib.sln",
+		"/C/xampp/htdocs/js-assessment/app/count.js",
+		"/C/xampp/htdocs/js-assessment/app/regex.js",
+		"/C/xampp/htdocs/js-assessment/app/recursion.js",
+		"/C/xampp/htdocs/grumpycat/build/lib/bento.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/discythrow/discythrow.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action/camera.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action/lights.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action/lights-camera-action.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action/gesture.js",
+		"/C/Users/felip/Desktop/bench.txt",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action/inputmanager.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/cat.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/lights-camera-action.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/rugby.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/manager.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/dog.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/rugby.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/cat.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/river.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/frogger.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/crocodile.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/frogger.js",
+		"/C/xampp/htdocs/grumpycat/lib/bento.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/baseball/baseball.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/levels.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/countcats.json",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/fishing.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/frogger/drown.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/puck.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/tennis.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/paddlecpu.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/paddleplayer.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/field.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/tennis.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/startloseanimation.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/tennis/startwinanimation.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/formula1.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/formula1.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/football/football.js",
+		"/C/xampp/htdocs/grumpycat/js/modules/tapticengine.js",
+		"/C/xampp/htdocs/grumpycat/js/utils.js",
+		"/C/xampp/htdocs/grumpycat/assets/preloader/json/text/en.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/rugby/dogmanager.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/grumpycar.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/layers.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/side.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/finishline.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/dazedstar.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/dogcar.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/trailemitter.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/trail.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/road.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/race3D.js",
+		"/C/xampp/htdocs/pseudo3D/index.html",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/images/formula1/backgroundmountains1.png",
+		"/C/xampp/htdocs/pseudo3D/js/main2.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/basketball/basketball.js",
+		"/C/Users/felip/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/felip/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/grumpycat/js/modules/events.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/formula1/car.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/basketball/ball.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/curling/curling.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/gestures/swipehand.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/football/ball.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/basketball.json",
+		"/C/xampp/htdocs/Google_files/halloween16.js.download",
+		"/C/xampp/htdocs/grumpycat/misc/cocoon_box2d.js",
+		"/C/Users/felip/Downloads/rugbywin/touchdown.json",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/football.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/eating/eating.js",
+		"/C/xampp/htdocs/grumpycat/js/components/rigidbody.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/eating/grumpycat.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/eating/food.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/curling.json",
+		"/C/Users/felip/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/baseball/ballholder.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/gestures/verticalswipehand.js",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/laserdot/laserdot.js",
+		"/C/Users/felip/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/baseball/ball.js",
+		"/C/xampp/htdocs/grumpycat/assets/minigames/json/baseball.json",
+		"/C/xampp/htdocs/grumpycat/js/entities/minigames/baseball/failanimation.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\phaser\\v3\\src",
+			"C:\\xampp\\htdocs\\grumpycat\\js\\entities",
+			"C:\\xampp\\htdocs\\grumpycat\\js\\entities\\minigames"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DE",
+			"bif",
+			"BF_TMP_PC",
+			"BF_TEMP",
+			"ld",
+			"rotated",
+			"vertexBuffer",
+			"SpriteBatch",
+			"word",
+			"debugger",
+			"_pivotX",
+			"anchor",
+			"getVertexData",
+			"updateVertexData",
+			"ADD",
+			"mtx",
+			"pivotX",
+			"anchor",
+			"updateAnces",
+			"translation",
+			"bounds",
+			"parentBound",
+			".cr",
+			"cos",
+			"render",
+			"children",
+			"};\n",
+			"bounds",
+			" + ",
+			"ADD_",
+			"ADD",
+			"XOR",
+			"OR",
+			"AND",
+			"//",
+			"U32",
+			"events",
+			"foodOrder",
+			";\n",
+			"selectBoard",
+			"event",
+			"console",
+			"pointersData",
+			"pointerCoordinates",
+			"260",
+			"initOffset",
+			"12",
+			"eventSystem",
+			" entity.position",
+			"TapticEngine",
+			"visible =",
+			",\n            \"initialDelay\": 40",
+			"dogManager",
+			"dogPool",
+			"tapHand",
+			"tutorialText",
+			"speed",
+			"buttonRigth",
+			"            z: 0,",
+			"0.05",
+			"realPosition",
+			"strokeColor",
+			"redLine",
+			"lineColorIndex",
+			"ball",
+			"onPassed",
+			"-1000",
+			"grumpyCarEntity.position.x =",
+			"onColli",
+			"isPointerMoving",
+			"moveToLeft",
+			"asbox",
+			"box",
+			"                        \n",
+			");\n",
+			"            Bento.objects.attach(catWin);",
+			"lerp",
+			"fakeBall",
+			"goalPosts",
+			"5",
+			"dog.move",
+			"scrolling.y =",
+			"lerp",
+			"tutorialText",
+			"text",
+			"catch",
+			"swipeWidth",
+			"Right",
+			"Left",
+			"confeti.js",
+			"CONST_SPEED_",
+			"CONST",
+			"'sprite'",
+			"Sign",
+			"PushAndReturn",
+			";\n",
+			"7",
+			"y",
+			"ball.virtualPosition.x",
+			"ball.move = false",
+			"side =",
+			"side",
+			"var side",
+			"timeToComplete",
+			"winGame",
+			"stop",
+			"animation",
+			"backgroundEn",
+			"startloseanimation.js",
+			"timeout",
+			"partic",
+			"1",
+			"carArray",
+			"\t\t\t\t\n",
+			"y",
+			"Clickable",
+			"tennis",
+			"python"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bfi",
+			"BF_TMP_HL",
+			"BF_TMP_PC",
+			"vertexBufferF32",
+			"SpriteBatch32",
+			"MUL",
+			"matrix",
+			"boundingBox",
+			"parentBoundingBox",
+			" * ",
+			"MUL_",
+			"MUL",
+			"NOT",
+			"XOR",
+			"OR",
+			"#pragma region",
+			"U8",
+			"pointers",
+			"pointersData",
+			"offsets",
+			"offset",
+			"",
+			"gameManager",
+			"dogPoolDead",
+			"0.025",
+			"screenValues",
+			"lineColor",
+			"lineColorIndex",
+			"fakeBallFail",
+			"swipeLength",
+			"Down",
+			"Up",
+			"speed",
+			"sign",
+			"pushAndReturn"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.z80",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Z80 Assembly/z80.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "include/ascii/font.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7167,
+								7167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6982.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.845337620579,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "brainfuck.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 365.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
